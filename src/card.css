@@ -1,0 +1,37 @@
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 70px;
+  }
+  
+  .card-style{
+    margin: 30px 15px;
+    width: calc( 25% - 32px );
+    background-color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    border: 1px solid transparent;
+  }
+  
+  .card-img{
+    width: 100%;
+    height: 380px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+  }
+  
+  .card-title{
+    font-size: 18px;
+    margin: 5px 0 10px 0;
+    text-align: center;
+    font-weight: 500;
+    padding: 10px 0px;
+  }
+  
+  .card-style:hover{
+    transform: scale(1.05,1.05);
+  }
+  
+  .active{
+    background-color: tomato;
+  }
